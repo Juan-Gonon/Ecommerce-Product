@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>E-commerce product page</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <section class="header__content section">
+      <div class="toggle" id="toggle"><i class='bx bx-grid-alt'></i></div>
+      <div class="logo"><h2 class="title">sneakers</h2></div>
+      <nav class="nav" id="navigation">
+        <div class="close" id="close"><i class='bx bx-x'></i></div>
+        <ul class="list">
+          <li class="link active"><a href="#">Collections</a></li>
+          <li class="link"><a href="#">Men</a></li>
+          <li class="link"><a href="#">Women</a></li>
+          <li class="link"><a href="#">About</a></li>
+          <li class="link"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="carrito"><i class='bx bx-cart-alt'></i>
+        <span class="quantity">3</span>
+      </div>
+      <article class="carrito__content">
+        <h4 class="car__title">Cart</h4>
+        <div class="carrito__content-cards">
+          <span>Your cart is empty</span>
+          <!-- <section class="cards__content">
+            <div class="car-Cards">
+              <div class="card-img"><img src="asset/img/shoes1.png" alt="" width="100px"></div>
+              <div class="card-text">
+                <p>Fall Limited Edition Sneakers $125.00 x 3 <span>$375.00</span></p>
+              </div>
+              <div class="trash">
+                <i class='bx bxs-trash'></i>
+              </div>
+            </div>
+            <a href="#" class="checkout">
+              checkout
+            </a>
+
+          </section> -->
+        </div>
+      </article>
+
+      <div class="user"><i class='bx bx-user-circle'></i></div>
+    </section>
+  </header>
+
+
+  <main class="main" id="main">
+    <section class="section main__content">
+      <article class="container__img">
+        <div class="content">
+          <div class="content__img">
+            <!-- <img src="asset/img/shoes1.png" alt="shoes"> -->
+          </div>
+          <div class="content__imgs" id="imgs">
+            <!-- <div class="img active"><img src="asset/img/shoes2.png" alt="img"></div>
+            <div class="img"><img src="asset/img/shoes3.png" alt="img"></div>
+            <div class="img"><img src="asset/img/shoes1.png" alt="sho"></div>
+            <div class="img"><img src="asset/img/shoes2.png" alt="img"></div> -->
+          </div>
+        </div>
+      </article>
+      <article class="container__text">
+        <div class="content__text">
+          <h4 class="company">Sneaker company</h4>
+          <h1 class="product__name">Fall Limite Edition<br> Sneakers</h1>
+          <p class="text">These low-profile sneakers are your perfecto casual wear companion. Featuring a rubber outer sole, they II withstand everything the weather can offer</p>
+          <div class="price">
+            <span id="price">$125.00</span>
+            <span>50%</span>
+            <span>$250.00</span>
+          </div>
+
+          <div class="actions">
+            <div class="cantidad">
+              <span class="prev"> - </span><span id="cantidad">3</span><span class="next"> + </span>
+            </div>
+            <a href="#" class="add__car">
+              <i class='bx bx-cart-alt'></i>
+              Add to cart
+            </a>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+  <script type="module" src="asset/script.js"></script>
+</body>
+</html>
